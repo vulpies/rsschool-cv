@@ -1,13 +1,11 @@
 # **Alesia Mezina**
 
----
-
 ## **Contacts**
 
 -   **Telegram:** https://t.me/vulpi_kyle
 -   **Email:** mezina_alesya@mail.ru
 -   **GitHub:** https://github.com/vulpies
--   **Phone:** +375(29)392-93-08
+-   **Phone:** +375-29-392-93-08
 -   **Location:** Minsk, Belarus
 
 ---
@@ -62,10 +60,10 @@ traineeship for Frontend Dev
 ## **Education**
 
 -   **2013-2018:** Belorussian State University
--   **2021-2022:** _Junior Frontend Developer_ by Result.School
--   **2022:** _Полный курс по JavaScript + React - с нуля до результата_ by Ivan Petrichenko
--   **2023:** _Полный курс по современному TypeScript_ by Ivan Petrichenko
--   **2023:** _Посадка верстки и создание тем на CMS WordPress_ by Ivan Petrichenko
+-   **2021-2022:** _Junior Frontend Developer_ by **Result.School**
+-   **2022:** _Полный курс по JavaScript + React - с нуля до результата_ by **Ivan Petrichenko**
+-   **2023:** _Полный курс по современному TypeScript_ by **Ivan Petrichenko**
+-   **2023:** _Посадка верстки и создание тем на CMS WordPress_ by **Ivan Petrichenko**
 
 ---
 

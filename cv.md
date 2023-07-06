@@ -44,7 +44,6 @@ const createNewChat = (e) => {
 		}, setNewId)
 		SwallSuccess('Новый чат был успешно создан! Вы можете найти его в списке чатов.')
 		navigate(`/chats/${newId?.chat_room_id}`)
-		console.log(chatInfo)
 	}
 ```
 

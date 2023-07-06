@@ -1,8 +1,30 @@
-html,
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+:root {
+    --margin-top: 50px;
+    --yellow-color: #fff3b1c4;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #f2deb7bf;
+}
+
+body::-webkit-scrollbar-thumb {
+    width: 8px;
+    background-color: #9d731e94;
+    border-radius: 10px;
 }
 
 h1,
@@ -16,10 +38,313 @@ p {
     padding: 0;
 }
 
+h2 {
+    font-size: 50px;
+    font-family: "Caveat", cursive;
+    margin-bottom: 20px;
+    width: max-content;
+    padding: 0 25px;
+    border-radius: 11px;
+}
+
+ul {
+    margin-right: 30px;
+}
+
+ul li {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 img {
     max-width: 100%;
+}
+
+.header {
+    border-bottom: 58px solid var(--yellow-color);
+    padding-bottom: var(--margin-top);
+    padding-top: var(--margin-top);
+}
+
+/*NAVIGATION*/
+.nav {
+    background-color: var(--yellow-color);
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.nav ul {
+    display: flex;
+    width: inherit;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav ul li {
+    margin: 15px 20px;
+    transition: transform 0.5s;
+}
+
+.nav ul li:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+.nav ul li a {
+    color: #441d0b;
+    font-size: 23px;
+    font-weight: 400;
+    text-shadow: 0px 1px 2px #920c0c;
+    transition: all 0.5s;
+}
+
+.nav ul li a:hover {
+    transition: all 0.5s;
+    text-shadow: 0px 1px 5px #ff9e00;
+}
+
+/*ABOUT ME*/
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.about,
+.main {
+    margin-top: var(--margin-top);
+}
+
+/* .main {
+    padding-bottom: 70px;
+    padding-top: 20px;
+} */
+
+.about__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__summary {
+    text-align: center;
+    width: 40%;
+}
+
+.about__img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px ridge #750606;
+}
+
+.about__summary h1 {
+    font-size: 60px;
+    font-family: "Caveat", cursive;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.about__summary p {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 17px;
+}
+
+.about__summary p img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.about__intro {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    height: 236px;
+}
+
+.about__intro p {
+    font-size: 24px;
+    width: 80%;
+}
+
+.about__contacts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 36px;
+}
+
+.about__contacts li {
+    margin-right: 15px;
+    transition: all 0.55s;
+    font-size: unset;
+    margin-bottom: 0;
+}
+.about__contacts li:last-child {
+    margin-right: 0;
+}
+
+.about__contacts li {
+    list-style-type: none;
+}
+
+.about__contacts li:hover {
+    transform: scale(1.2);
+    transition: all 0.55s;
+}
+
+.about__contacts li a {
+    height: auto;
+    display: block;
+}
+
+.about__contacts li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #a5a009;
+    transition: all 0.4s;
+}
+
+.about__contacts li img:hover {
+    border-color: #721616;
+    transition: all 0.4s;
+}
+
+/*SKILLS*/
+
+.skills,
+.experience__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+
+.hard-skills,
+.code,
+.education,
+.experience {
+    width: 50%;
+}
+
+.skills h2 {
+    background-color: #87e49763;
+}
+
+.code img {
+    border: 2px solid #896262;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #aba387e0;
+}
+
+/*EXPERIENCE*/
+
+.experience__wrapper {
+    margin-bottom: 100px;
+}
+.experience__wrapper h2 {
+    background-color: #a5d6f482;
+}
+
+.experience p {
+    margin-bottom: 60px;
+    font-size: 22px;
+    width: 85%;
+}
+
+.experience span {
+    font-weight: 500;
+}
+
+.education .year {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.education .school {
+    color: #c28a0d;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #650707;
+    font-size: 24px;
+}
+
+.education .udemy {
+    color: #28a606;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #077609;
+    font-size: 24px;
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: var(--yellow-color);
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    width: 120px;
+    height: 40px;
+    transition: all 0.7s;
+}
+
+.footer img:hover {
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 0px 7px 0px #e65a5a; */
+    transition: all 0.7s;
+    transform: scale(1.2);
+}
+
+.footer p {
+    font-size: 26px;
+    margin-right: 200px;
+}
+
+.footer p a {
+    font-size: 32px;
+    margin-left: 15px;
+    color: #9a3309;
+    transition: color 0.4s;
+}
+
+.footer p a:hover {
+    color: #0f9c20;
+    transition: color 0.4s;
 }

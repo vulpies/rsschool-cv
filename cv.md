@@ -13,22 +13,22 @@
 ## **Let me introduce myself**
 
 Hello, everyone!
-My name is Alesia, I'm 27 y.o. and I'm a junior frontend developer. I very love coding and create something interesting.
+My name is Alesia, I'm 27 y.o. and I'm a junior web developer. I very love coding and create something interesting.
 
 ---
 
 ## **Hard skills**
 
 -   HTML5, CSS3, SCSS / SASS, CSS modules
--   JS / TS / jQuery
--   React, Redux, Redux Toolkit
--   Material UI, Bootstrap and React-Bootstrap libraries
+-   JS / jQuery
+-   React
+-   Bootstrap, React-Bootstrap
 -   REST API (axios, fetch)
 -   Basic knowledge of Vue
 -   WordPress, Strapi
 -   Git
 -   Cross-browser and adaptive layout
--   Basic knowledge of Node.js & WebSocket
+-   Pixel Perfect
 
 ---
 
@@ -51,6 +51,9 @@ const createNewChat = (e) => {
 
 ## **Experience**
 
+**August 2023 - September 2023**
+traineeship for JavaScript Deveploper
+
 **July 2022 - October 2022**
 traineeship for Frontend Dev
 
@@ -59,10 +62,11 @@ traineeship for Frontend Dev
 ## **Education**
 
 -   **2013-2018:** Belorussian State University
--   **2021-2022:** _Junior Frontend Developer_ by **Result.School**
--   **2022:** _Полный курс по JavaScript + React - с нуля до результата_ by **Ivan Petrichenko**
--   **2023:** _Полный курс по современному TypeScript_ by **Ivan Petrichenko**
--   **2023:** _Посадка верстки и создание тем на CMS WordPress_ by **Ivan Petrichenko**
+-   **Result.School:** Junior Frontend Developer
+-   **Udemy:** JavaScript + React - from scratch to result
+-   **Udemy:** TypeScript course
+-   **Udemy:** CMS WordPress course
+-   **RS School:** JavaScript/Front-end stage-0
 
 ---
 
